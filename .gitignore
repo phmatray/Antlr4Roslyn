@@ -1,5 +1,82 @@
+# .NET
 bin/
 obj/
-/packages/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.log
+[Bb]in
+[Oo]bj
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.vscode/
+*.swp
+*.swo
+*~
+
+# Rider
+.idea/
 riderModule.iml
 /_ReSharper.Caches/
+
+# User-specific files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# ANTLR generated files (allow needed ones in source control)
+**/generated/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+/packages/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# Build outputs
+output
+output.exe
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+npm-debug.log*
+
+# Temporary folders
+tmp/
+temp/

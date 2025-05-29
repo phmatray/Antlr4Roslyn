@@ -1,4 +1,5 @@
 using Antlr4.Runtime;
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Antlr4Roslyn.Services;
@@ -7,22 +8,22 @@ public class Compiler
 {
     public void Compile(string input)
     {
-        // Étape 1 : Parser le code source avec ANTLR
+        // Step 1: Parse the source code with ANTLR
         var inputStream = new AntlrInputStream(input);
         var lexer = new SimpleLexer(inputStream);
         var tokens = new CommonTokenStream(lexer);
         var parser = new SimpleParser(tokens);
-        var context = parser.program();
 
-        // Étape 2 : Visiter l'arbre pour construire l'AST via Roslyn
+        // Step 2: Visit the tree to build the Roslyn AST
         var visitor = new AntlrToRoslynVisitor();
-        ExpressionSyntax expression = visitor.Visit(context);
+        var context = parser.program();
+        SyntaxNode programNode = visitor.VisitProgram(context);
 
-        // Étape 3 : Générer le programme complet avec Roslyn
+        // Step 3: Generate the complete program with Roslyn
         var generator = new ProgramGenerator();
-        CompilationUnitSyntax program = generator.GenerateProgram(expression);
+        CompilationUnitSyntax program = generator.GenerateProgram(programNode);
         
-        // Étape 4 : Compiler le programme avec Roslyn
+        // Step 4: Compile the program with Roslyn
         var compilerService = new CompilationService();
         compilerService.CompileAndExecute(program);
     }
