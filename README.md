@@ -2,6 +2,20 @@
 
 # Simple Programming Language Compiler
 
+<!-- portfolio-badges:start -->
+<!-- Identity -->
+[![phmatray - Antlr4Roslyn](https://img.shields.io/static/v1?label=phmatray&message=Antlr4Roslyn&color=blue&logo=github)](https://github.com/phmatray/Antlr4Roslyn)
+![Top language](https://img.shields.io/github/languages/top/phmatray/Antlr4Roslyn)
+[![Stars](https://img.shields.io/github/stars/phmatray/Antlr4Roslyn?style=social)](https://github.com/phmatray/Antlr4Roslyn/stargazers)
+[![Forks](https://img.shields.io/github/forks/phmatray/Antlr4Roslyn?style=social)](https://github.com/phmatray/Antlr4Roslyn/network/members)
+
+<!-- Activity -->
+[![Issues](https://img.shields.io/github/issues/phmatray/Antlr4Roslyn)](https://github.com/phmatray/Antlr4Roslyn/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/phmatray/Antlr4Roslyn)](https://github.com/phmatray/Antlr4Roslyn/pulls)
+[![Last commit](https://img.shields.io/github/last-commit/phmatray/Antlr4Roslyn)](https://github.com/phmatray/Antlr4Roslyn/commits)
+<!-- portfolio-badges:end -->
+
+
 A powerful yet minimal programming language that compiles to .NET using ANTLR4 for parsing and Roslyn for code generation. This project demonstrates how to build a complete compiler pipeline from grammar definition to executable generation.
 
 ## 🚀 Language Features
