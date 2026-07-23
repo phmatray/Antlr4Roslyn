@@ -236,6 +236,17 @@ Antlr4Roslyn/
 - 🎯 **REPL Mode** - Interactive interpreter
 - 🎯 **IDE Support** - Syntax highlighting, IntelliSense
 
+<!-- portfolio-techstack:start -->
+
+## Tech Stack
+
+- **.NET 8**
+- Antlr4BuildTasks
+- Antlr4.Runtime.Standard
+- Microsoft.CodeAnalysis.CSharp
+
+<!-- portfolio-techstack:end -->
+
 ## 🤝 Contributing
 
 Contributions welcome! Areas where help is needed:
