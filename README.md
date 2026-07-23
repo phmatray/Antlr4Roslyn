@@ -1,3 +1,5 @@
+![Antlr4Roslyn banner](.github/banner.png)
+
 # Simple Programming Language Compiler
 
 A powerful yet minimal programming language that compiles to .NET using ANTLR4 for parsing and Roslyn for code generation. This project demonstrates how to build a complete compiler pipeline from grammar definition to executable generation.
