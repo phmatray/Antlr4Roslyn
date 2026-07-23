@@ -15,6 +15,25 @@
 [![Last commit](https://img.shields.io/github/last-commit/phmatray/Antlr4Roslyn)](https://github.com/phmatray/Antlr4Roslyn/commits)
 <!-- portfolio-badges:end -->
 
+<!-- portfolio-toc:start -->
+
+## Table of Contents
+
+- [🚀 Language Features](#-language-features)
+- [📋 Quick Start](#-quick-start)
+- [🎯 Language Syntax](#-language-syntax)
+- [🏗️ Architecture](#-architecture)
+- [🎮 Example Output](#-example-output)
+- [🛠️ Development](#-development)
+- [🚧 Roadmap](#-roadmap)
+- [Tech Stack](#tech-stack)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+
+<!-- portfolio-toc:end -->
+
+
 
 A powerful yet minimal programming language that compiles to .NET using ANTLR4 for parsing and Roslyn for code generation. This project demonstrates how to build a complete compiler pipeline from grammar definition to executable generation.
 
