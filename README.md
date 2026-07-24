@@ -8,6 +8,7 @@
 ![Top language](https://img.shields.io/github/languages/top/phmatray/Antlr4Roslyn)
 [![Stars](https://img.shields.io/github/stars/phmatray/Antlr4Roslyn?style=social)](https://github.com/phmatray/Antlr4Roslyn/stargazers)
 [![Forks](https://img.shields.io/github/forks/phmatray/Antlr4Roslyn?style=social)](https://github.com/phmatray/Antlr4Roslyn/network/members)
+[![License](https://img.shields.io/github/license/phmatray/Antlr4Roslyn)](https://github.com/phmatray/Antlr4Roslyn/blob/HEAD/LICENSE)
 
 <!-- Activity -->
 [![Issues](https://img.shields.io/github/issues/phmatray/Antlr4Roslyn)](https://github.com/phmatray/Antlr4Roslyn/issues)
